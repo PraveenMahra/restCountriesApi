@@ -199,15 +199,25 @@ button:has(svg) {
   line-height: 0;
 }
 
-
-
-
-
 img {
   max-width: 100%;
 
   /* For dark mode */
   filter: grayscale(var(--image-grayscale)) opacity(var(--image-opacity));
+}
+
+@media (max-width: 48.75rem){
+  input{
+    width: 100%;
+  }
+
+  @media (max-width: 38.31rem) {
+   select{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem;
+   }
+  }
 }
 `;
 

@@ -21,6 +21,11 @@ const Searchbar = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: auto 80px 48px 80px;
+
+  @media (max-width: 38.31rem) {
+    flex-direction: column;
+    margin: 4rem;
+  }
 `;
 
 const SearchFilter = ({ onSearch, onFilter }) => {

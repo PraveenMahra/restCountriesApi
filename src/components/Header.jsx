@@ -13,6 +13,11 @@ const Headerbar = styled.header`
 
 const Div = styled.div`
   margin: 0 80px;
+
+  @media (max-width: 48.75rem) {
+    margin: 0 2rem;
+    font-size: 1rem;
+  }
 `;
 
 function Header() {
